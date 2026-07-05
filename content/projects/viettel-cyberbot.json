@@ -10,5 +10,5 @@
     "Maintained real-time communication using Socket.IO and Laravel Echo Server.",
     "Participated in deployment automation, Kubernetes operations, and production troubleshooting."
   ],
-  "technologies": ["Laravel", "PHP", "PostgreSQL", "MySQL", "Redis", "Socket.IO", "Docker", "Kubernetes"]
+  "technologies": ["Laravel", "PHP", "MongoDB", "MySQL", "Redis", "Socket.IO", "Nginx", "GitLab CI/CD" , "Docker","ArgoCD","Kubernetes", "Prometheus", "Grafana"]
 }

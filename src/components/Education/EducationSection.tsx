@@ -15,7 +15,7 @@ const education = [
 ]
 
 const certifications = [
-  'IBM Full Stack Software Developer (Coursera)',
+  'IBM Full Stack Software Developer',
   'Oracle Cloud Infrastructure 2025 Foundations Associate',
   'TOEIC B2 (Intermediate English)',
 ]

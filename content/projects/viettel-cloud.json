@@ -10,5 +10,5 @@
     "Integrated infrastructure monitoring through Prometheus and Grafana.",
     "Contributed to CI/CD pipelines and deployment workflows."
   ],
-  "technologies": ["Vue.js", "React", "Node.js", "Prometheus", "Grafana", "Docker", "Kubernetes"]
+  "technologies": ["Vue.js", "Nuxt.js", "TailwindCSS", "Ant Design", "GitLab CI/CD", "Docker"]
 }

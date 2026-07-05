@@ -1,14 +1,19 @@
 // Data for portfolio
 import {
-  ExpressjsIcon,
+  ArgoCDIcon,
+  GitlabIcon,
   JavaScriptIcon,
+  KubernetesIcon,
   NestjsIcon,
   NextjsIcon,
   NodejsIcon,
+  NuxtIcon,
+  RancherIcon,
   ReactIcon,
   SocketIcon,
   TailwindCSS,
   TypescriptIcon,
+  VueIcon,
 } from '../utils/icons'
 
 // Technical Expertise Data
@@ -44,19 +49,26 @@ export const serviceData = [
 export const skillList = [
   { name: 'JavaScript', icon: JavaScriptIcon },
   { name: 'TypeScript', icon: TypescriptIcon },
+  { name: 'Vue.js', icon: VueIcon },
+  { name: 'Nuxt.js', icon: NuxtIcon },
   { name: 'React.js', icon: ReactIcon },
-  { name: 'Next.js', icon: NextjsIcon },
   { name: 'Node.js', icon: NodejsIcon },
-  { name: 'Express.js', icon: ExpressjsIcon },
   { name: 'Nest.js', icon: NestjsIcon },
   { name: 'Socket.io', icon: SocketIcon },
   { name: 'Tailwind CSS', icon: TailwindCSS },
+  { name: 'Kubernetes', icon: KubernetesIcon },
+  { name: 'Rancher', icon: RancherIcon },
+  { name: 'Argo CD', icon: ArgoCDIcon },
+  { name: 'GitLab', icon: GitlabIcon },
 ]
 
 export const footerLinks = [
   { title: 'Projects', href: '#projects' },
   { title: 'Experience', href: '#experience' },
-  { title: 'Contact', href: '#contact' },
+  { title: 'Technical Expertise', href: '#expertise' },
+  { title: 'Technology Stack', href: '#tech-stack' },
+  { title: 'Education & Certifications', href: '#education' },
+  { title: 'Awards', href: '#awards' },
 ]
 
 export const themes = [

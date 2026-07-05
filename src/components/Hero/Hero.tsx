@@ -32,12 +32,12 @@ const Hero = () => {
               className="bg-accent min-w-32 cursor-pointer rounded-lg px-[14px] py-[10px] text-center text-sm font-medium text-[#00071E]">
               View Projects
             </a>
-            <a
-              href="#contact"
+            {/* <a
+              href="mailto:moordlorddev@gmail.com"
               aria-label="Get in touch"
               className="text-neutral bg-secondary cursor-pointer rounded-lg px-[14px] py-[10px] text-sm">
               Get in Touch
-            </a>
+            </a> */}
           </div>
         </div>
 

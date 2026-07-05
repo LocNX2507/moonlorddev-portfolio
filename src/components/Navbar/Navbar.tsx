@@ -5,6 +5,7 @@ import { usePathname } from 'next/navigation'
 import { useState } from 'react'
 import { BurgerIcon, CloseIcon } from '../../utils/icons'
 import Logo from './Logo'
+import ThemeMenu from '../Theme/ThemeMenu'
 
 const navItems = [
   {
@@ -20,8 +21,20 @@ const navItems = [
     href: '/#experience',
   },
   {
-    label: 'Contact',
-    href: '/#contact',
+    label: 'Expertise',
+    href: '/#expertise',
+  },
+  {
+    label: 'Stack',
+    href: '/#tech-stack',
+  },
+  {
+    label: 'Education',
+    href: '/#education',
+  },
+  {
+    label: 'Awards',
+    href: '/#awards',
   },
 ]
 
@@ -72,6 +85,10 @@ const Navbar = () => {
             </li>
           ))}
         </ul>
+
+        <div className="md:block hidden">
+          <ThemeMenu />
+        </div>
       </div>
     </nav>
   )

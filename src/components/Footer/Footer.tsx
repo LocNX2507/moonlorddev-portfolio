@@ -33,10 +33,15 @@ const Footer = () => {
           <h5 className="text-neutral mb-3 text-base font-medium">Contact</h5>
           <a
             href="mailto:moordlorddev@gmail.com"
-            className="text-tertiary-content hover:text-neutral text-sm font-light transition-colors duration-300">
+            className="text-tertiary-content hover:text-neutral block text-sm font-light transition-colors duration-300">
             moordlorddev@gmail.com
           </a>
-          <p className="text-tertiary-content text-sm font-light">Hanoi, Vietnam</p>
+          <a
+            href="tel:0376971543"
+            className="text-tertiary-content hover:text-neutral block text-sm font-light transition-colors duration-300">
+            0376971543
+          </a>
+          <p className="text-tertiary-content text-sm font-light mt-1">Hanoi, Vietnam</p>
         </div>
 
         <p className="text-tertiary-content text-xs">© {new Date().getFullYear()} Moonlorddev. All rights reserved.</p>

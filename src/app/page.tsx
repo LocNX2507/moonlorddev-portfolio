@@ -1,10 +1,8 @@
 import { skillList } from '@/appData'
 import AwardsSection from '@/components/Awards/AwardsSection'
-import ContactSection from '@/components/Contact/ContactSection'
 import EducationSection from '@/components/Education/EducationSection'
 import ExperienceSection from '@/components/Experience/ExperienceSection'
 import Hero from '@/components/Hero/Hero'
-import PhilosophySection from '@/components/Philosophy/PhilosophySection'
 import ProjectSection from '@/components/Projects/ProjectSection'
 import ServiceSection from '@/components/Services/ServiceSection'
 import Skills from '@/components/Skills/Skills'
@@ -23,10 +21,8 @@ export default async function Home() {
         <ExperienceSection />
         <ServiceSection />
         <TechStackSection />
-        <PhilosophySection />
         <EducationSection />
         <AwardsSection />
-        <ContactSection />
       </div>
     </main>
   )

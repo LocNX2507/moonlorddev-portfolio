@@ -3,7 +3,6 @@ import './globals.css'
 
 import Footer from '@/components/Footer/Footer'
 import Navbar from '@/components/Navbar/Navbar'
-import ThemeMenu from '@/components/Theme/ThemeMenu'
 
 const title = 'Moonlorddev | Fullstack Developer — AI, Cloud & Platform Engineering'
 
@@ -46,7 +45,6 @@ export default function RootLayout({
           <Navbar />
         </header>
         {children}
-        <ThemeMenu />
         <Footer />
       </body>
     </html>

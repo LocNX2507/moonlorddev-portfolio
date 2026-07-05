@@ -1,18 +1,24 @@
 import { FC, SVGProps } from 'react'
 
+import ArgoCDIcon from '../assets/icons/argocd.svg'
 import Earning from '../assets/icons/earning.svg'
 import ExpressjsIcon from '../assets/icons/express.svg'
+import GitlabIcon from '../assets/icons/gitlab.svg'
 import JavaScriptIcon from '../assets/icons/javascript.svg'
+import KubernetesIcon from '../assets/icons/kubernetes.svg'
 import Likes from '../assets/icons/likes.svg'
 import NestjsIcon from '../assets/icons/nest.svg'
 import NextjsIcon from '../assets/icons/nextjs.svg'
 import NodejsIcon from '../assets/icons/nodejs.svg'
+import NuxtIcon from '../assets/icons/nuxt.svg'
+import RancherIcon from '../assets/icons/rancher.svg'
 import ReactIcon from '../assets/icons/react.svg'
 import SocketIcon from '../assets/icons/socket.svg'
 import Star from '../assets/icons/star.svg'
 import TailwindCSS from '../assets/icons/tailwind-css.svg'
 import Timer from '../assets/icons/timer.svg'
 import TypescriptIcon from '../assets/icons/typescript.svg'
+import VueIcon from '../assets/icons/vue.svg'
 
 const PreviewIcon: FC<SVGProps<SVGSVGElement>> = (props) => {
   return (
@@ -307,6 +313,7 @@ const PhoneIcon: FC<SVGProps<SVGSVGElement>> = (props) => {
 }
 
 export {
+  ArgoCDIcon,
   ArrowLeftIcon,
   ArrowRightIcon,
   BurgerIcon,
@@ -318,16 +325,20 @@ export {
   ExpressjsIcon,
   Facebook,
   GithubIcon,
+  GitlabIcon,
   Instagram,
   JavaScriptIcon,
+  KubernetesIcon,
   Likes,
   LinkedIn,
   MsgIcon,
   NestjsIcon,
   NextjsIcon,
   NodejsIcon,
+  NuxtIcon,
   PhoneIcon,
   PreviewIcon,
+  RancherIcon,
   ReactIcon,
   SocketIcon,
   Star,
@@ -335,5 +346,6 @@ export {
   TailwindCSS,
   Timer,
   TypescriptIcon,
+  VueIcon,
   X,
 }

@@ -11,5 +11,5 @@
     "Developed a visual node-based workflow editor allowing business users to configure chatbot logic without modifying source code.",
     "Participated in production deployment, monitoring, debugging, and continuous platform improvements."
   ],
-  "technologies": ["Vue.js", "NestJS", "TypeScript", "Redis", "MongoDB", "Docker", "Kubernetes", "GitLab CI/CD", "Prometheus", "Grafana"]
+  "technologies": ["React.js", "Vue.js", "NestJS", "TypeScript", "Redis", "MongoDB", "GitLab CI/CD" , "Docker", "ArgoCD","Kubernetes", "Prometheus", "Grafana"]
 }
