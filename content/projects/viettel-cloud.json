@@ -1,0 +1,14 @@
+{
+  "priority": 3,
+  "title": "Viettel Cloud",
+  "type": "Cloud Management Console",
+  "overview": "Cloud management console for provisioning and operating enterprise infrastructure resources.",
+  "challenge": "Provide a unified management interface for cloud resources while supporting role-based access control and centralized authentication.",
+  "contributions": [
+    "Developed cloud management interfaces for infrastructure resources.",
+    "Implemented project-level RBAC and SSO authentication.",
+    "Integrated infrastructure monitoring through Prometheus and Grafana.",
+    "Contributed to CI/CD pipelines and deployment workflows."
+  ],
+  "technologies": ["Vue.js", "React", "Node.js", "Prometheus", "Grafana", "Docker", "Kubernetes"]
+}
