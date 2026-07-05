@@ -5,7 +5,6 @@ import {
   JavaScriptIcon,
   KubernetesIcon,
   NestjsIcon,
-  NextjsIcon,
   NodejsIcon,
   NuxtIcon,
   RancherIcon,
