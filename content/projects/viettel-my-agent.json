@@ -1,0 +1,15 @@
+{
+  "priority": 1,
+  "title": "Viettel My Agent",
+  "type": "AI Platform",
+  "overview": "An enterprise AI platform for conversational AI, document knowledge management, and real-time interaction.",
+  "challenge": "Deliver an AI-native platform capable of supporting streaming conversations, knowledge retrieval, artifact rendering, and configurable workflows while remaining maintainable for long-term product development.",
+  "contributions": [
+    "Engineered a ChatGPT-inspired web interface with support for streaming responses and interactive artifacts.",
+    "Developed backend services using NestJS to orchestrate AI requests and high-frequency streaming through Server-Sent Events and Socket.IO.",
+    "Built document management workflows for LLM knowledge ingestion and retrieval.",
+    "Developed a visual node-based workflow editor allowing business users to configure chatbot logic without modifying source code.",
+    "Participated in production deployment, monitoring, debugging, and continuous platform improvements."
+  ],
+  "technologies": ["Vue.js", "NestJS", "TypeScript", "Redis", "MongoDB", "Docker", "Kubernetes", "GitLab CI/CD", "Prometheus", "Grafana"]
+}
