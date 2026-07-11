@@ -2,15 +2,15 @@
   "priority": 3,
   "title": "Viettel Cloud",
   "type": "Enterprise Cloud Management Console",
-  "overview": "Self-service IAM portal enabling 500+ internal teams to provision and manage cloud infrastructure (compute, networking, Kubernetes clusters) with zero-downtime deployments and real-time monitoring integration.",
-  "challenge": "Build unified cloud console supporting multi-tenant RBAC with fine-grained access control at project and resource levels, integrating with enterprise SSO while enabling rapid feature rollouts without downtime.",
+  "overview": "Self-service management portal for provisioning and operating cloud infrastructure resources with centralized authentication and role-based access control.",
+  "challenge": "Build unified cloud console supporting multi-tenant RBAC with fine-grained access control at project and resource levels, integrating with enterprise SSO authentication.",
   "contributions": [
-    "Developed Cloud Console (Nuxt.js) — self-service IAM portal for infrastructure provisioning: Compute/Servers, Kubernetes clusters, Networking, Monitoring with real-time status updates.",
-    "Implemented multi-tenant RBAC: role/permission scoping at project and resource level, integrated with enterprise SSO (SAML/OAuth) for centralized authentication and audit logging.",
-    "Designed config-driven, modular architecture decoupling feature flags, resource limits, and UI theming from source code — enabling configuration updates without redeployment (Infrastructure-as-Code pattern).",
-    "Integrated observability dashboard: embedded Prometheus/Grafana metrics directly in console for real-time resource usage, health status, cost tracking, and alerting.",
-    "Set up GitLab CI/CD pipelines: containerized services with Docker, implemented blue-green deployments for zero-downtime updates, coordinated multi-service releases with infrastructure team.",
-    "Built responsive UI supporting both web and mobile (tablet) access for on-call engineers managing infrastructure from anywhere."
+    "Developed Cloud Console (Nuxt.js) — self-service portal for infrastructure provisioning: Compute, Kubernetes clusters, Networking, and Monitoring.",
+    "Implemented multi-tenant RBAC: role/permission scoping at project and resource level, integrated with enterprise SSO for centralized authentication.",
+    "Designed modular, config-driven architecture decoupling feature flags, resource limits, and theming from source code.",
+    "Integrated observability dashboard: embedded Prometheus and Grafana metrics for resource monitoring and status tracking.",
+    "Set up GitLab CI/CD pipelines: containerized services with Docker and coordinated deployments via infrastructure team.",
+    "Built responsive UI supporting web and mobile (tablet) access for infrastructure management."
   ],
   "technologies": ["Vue.js", "Nuxt.js", "TypeScript", "Ant Design", "TailwindCSS", "API Gateway", "GitLab CI/CD", "Docker"]
 }

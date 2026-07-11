@@ -2,16 +2,16 @@
   "priority": 2,
   "title": "Viettel Cyberbot",
   "type": "Multi-channel Enterprise Chatbot",
-  "overview": "Production chatbot platform serving Viettel Money, MB Bank, VPBank, and Mcredit with 5M+ monthly messages, multi-channel embedding (iframe, Facebook, WebView), and 99.9% uptime.",
-  "challenge": "Design multi-channel chatbot platform supporting concurrent live chat, real-time messaging, and high-throughput API calls (500+ req/s peak) while maintaining low latency (<500ms) under production load across multiple banking clients.",
+  "overview": "Chatbot platform serving banking and financial organizations across multiple communication channels with live chat and real-time messaging capabilities.",
+  "challenge": "Build multi-channel chatbot platform supporting concurrent live chat, real-time messaging, and API calls while maintaining stability under production load across multiple banking clients.",
   "contributions": [
-    "Architected full-stack chatbot application (Laravel + Vue.js) with CMS-driven bot logic configuration (scenarios, entities, patterns), enabling non-technical staff to manage complex conversation flows.",
-    "Built multi-channel embedding system: iframe, Facebook Messenger WebView with isolated context, request queuing for reliability under 10K+ concurrent users.",
-    "Designed Admin Dashboard (Vue.js + Laravel) for real-time analytics (message volume, conversion metrics), live chat agent workload distribution, and RBAC user management with SSO integration.",
-    "Optimized database performance: eliminated N+1 queries through eager loading, added strategic indexes reducing query time by 70%, implemented two-tier caching (Redis cache layer + query result cache).",
-    "Enhanced real-time messaging: tuned Socket.IO + Laravel Echo Server for stability under 5000+ concurrent connections, implemented connection pooling and graceful degradation.",
-    "Improved CI/CD pipelines: GitLab CI multi-stage builds, automated testing, Docker containerization, coordinated multi-service deployments via ArgoCD on Kubernetes.",
-    "Set up observability stack: Prometheus metrics (throughput, latency p50/p99), Grafana dashboards for monitoring bot health, enabled rapid incident debugging across distributed services."
+    "Architected full-stack chatbot application (Laravel + Vue.js) with CMS-driven configuration system (scenarios, entities, patterns) enabling non-technical staff to manage conversation flows.",
+    "Built multi-channel embedding system: iframe, Facebook Messenger WebView with isolated context and request queuing.",
+    "Designed Admin Dashboard (Vue.js + Laravel) for analytics, live chat operations, agent workload distribution, and RBAC user management with SSO integration.",
+    "Optimized database performance: improved query efficiency through eager loading and indexing, implemented two-tier caching strategy with Redis.",
+    "Enhanced real-time messaging: configured Socket.IO and Laravel Echo Server for concurrent connections with graceful degradation.",
+    "Improved CI/CD pipelines: GitLab CI multi-stage builds, automated testing, Docker containerization, and coordinated deployments via ArgoCD on Kubernetes.",
+    "Set up observability stack: Prometheus for metrics collection, Grafana dashboards for system monitoring and incident debugging."
   ],
   "technologies": ["Laravel", "PHP", "Vue.js", "JavaScript", "MongoDB", "MySQL", "Redis", "Socket.IO", "Nginx", "GitLab CI/CD", "Docker", "ArgoCD", "Kubernetes", "Prometheus", "Grafana"]
 }
