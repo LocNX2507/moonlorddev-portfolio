@@ -4,10 +4,10 @@ import './globals.css'
 import Footer from '@/components/Footer/Footer'
 import Navbar from '@/components/Navbar/Navbar'
 
-const title = 'Moonlorddev | Fullstack Developer — AI, Cloud & Platform Engineering'
+const title = 'Moonlorddev | Fullstack & AI Engineer — Cloud, Microservices & Real-time Systems'
 
 const description =
-  'Fullstack Developer with 5 years of experience building production web applications across frontend, backend, and cloud infrastructure. Focused on AI-enabled platforms, enterprise systems, and reliable engineering.'
+  'Senior Fullstack Developer with 5+ years building production systems: AI platforms (SSE streaming, LLM integration), enterprise chatbots (5M+ monthly messages), cloud infrastructure. Expert in Node.js, React, Kubernetes, microservices architecture, real-time systems (Socket.IO, Redis), DevOps (CI/CD, ArgoCD), and production optimization.'
 
 const url = process.env.NEXT_PUBLIC_SITE_URL
 

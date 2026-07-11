@@ -5,7 +5,7 @@ const stack = [
   { category: 'Frontend', items: 'Vue.js · Nuxt.js · React · Next.js · Tailwind CSS · Quasar · Ant Design' },
   { category: 'Backend', items: 'Node.js · NestJS · Laravel · REST APIs · Microservices · JWT · RBAC' },
   { category: 'Infrastructure', items: 'Docker · Kubernetes · GitLab CI/CD · ArgoCD · Linux · Nginx' },
-  { category: 'Database', items: 'MongoDB · PostgreSQL · MySQL · Redis' },
+  { category: 'Database', items: 'MongoDB · MySQL · Redis' },
   { category: 'Monitoring', items: 'Prometheus · Grafana' },
 ]
 

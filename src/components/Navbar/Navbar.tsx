@@ -5,7 +5,6 @@ import { usePathname } from 'next/navigation'
 import { useState } from 'react'
 import { BurgerIcon, CloseIcon } from '../../utils/icons'
 import Logo from './Logo'
-import ThemeMenu from '../Theme/ThemeMenu'
 
 const navItems = [
   {
@@ -71,7 +70,7 @@ const Navbar = () => {
         </div>
 
         <ul
-          className={`${isVisible ? 'flex' : 'hidden'} animate-fade-in bg-primary absolute top-16 left-0 z-10 h-dvh w-dvw flex-col md:static md:top-0 md:flex md:h-full md:w-[72%] md:flex-row lg:w-[70%]`}>
+          className={`${isVisible ? 'flex' : 'hidden'} animate-fade-in bg-primary absolute top-16 left-0 z-10 h-dvh w-dvw flex-col md:static md:top-0 md:flex md:h-full md:w-full md:flex-row lg:w-full`}>
           {navItems.map(({ label, href }) => (
             <li
               key={href}
@@ -85,10 +84,6 @@ const Navbar = () => {
             </li>
           ))}
         </ul>
-
-        <div className="md:block hidden">
-          <ThemeMenu />
-        </div>
       </div>
     </nav>
   )

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ClaudeCodeTabState">
+    <option name="tabSessions">
+      <map>
+        <entry key="0">
+          <value>
+            <TabSessionState>
+              <option name="provider" value="claude" />
+              <option name="sessionId" value="4bde2471-3434-4071-8aae-ab170d2b54e4" />
+              <option name="cwd" value="C:\Users\pc\Documents\locnx7\zz\moonlorddev-portfolio" />
+              <option name="model" value="claude-haiku-4-5" />
+              <option name="permissionMode" value="default" />
+            </TabSessionState>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

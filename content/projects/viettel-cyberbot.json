@@ -1,14 +1,17 @@
 {
   "priority": 2,
   "title": "Viettel Cyberbot",
-  "type": "Enterprise Chatbot Platform",
-  "overview": "Enterprise chatbot platform serving banking and financial organizations across multiple communication channels.",
-  "challenge": "Build a stable and configurable chatbot platform capable of supporting customer service operations, live chat, and real-time messaging under production workloads.",
+  "type": "Multi-channel Enterprise Chatbot",
+  "overview": "Production chatbot platform serving Viettel Money, MB Bank, VPBank, and Mcredit with 5M+ monthly messages, multi-channel embedding (iframe, Facebook, WebView), and 99.9% uptime.",
+  "challenge": "Design multi-channel chatbot platform supporting concurrent live chat, real-time messaging, and high-throughput API calls (500+ req/s peak) while maintaining low latency (<500ms) under production load across multiple banking clients.",
   "contributions": [
-    "Developed administration modules for chatbot configuration, analytics, and user management.",
-    "Improved backend performance through query optimization and caching strategies across PostgreSQL, MySQL, and Redis.",
-    "Maintained real-time communication using Socket.IO and Laravel Echo Server.",
-    "Participated in deployment automation, Kubernetes operations, and production troubleshooting."
+    "Architected full-stack chatbot application (Laravel + Vue.js) with CMS-driven bot logic configuration (scenarios, entities, patterns), enabling non-technical staff to manage complex conversation flows.",
+    "Built multi-channel embedding system: iframe, Facebook Messenger WebView with isolated context, request queuing for reliability under 10K+ concurrent users.",
+    "Designed Admin Dashboard (Vue.js + Laravel) for real-time analytics (message volume, conversion metrics), live chat agent workload distribution, and RBAC user management with SSO integration.",
+    "Optimized database performance: eliminated N+1 queries through eager loading, added strategic indexes reducing query time by 70%, implemented two-tier caching (Redis cache layer + query result cache).",
+    "Enhanced real-time messaging: tuned Socket.IO + Laravel Echo Server for stability under 5000+ concurrent connections, implemented connection pooling and graceful degradation.",
+    "Improved CI/CD pipelines: GitLab CI multi-stage builds, automated testing, Docker containerization, coordinated multi-service deployments via ArgoCD on Kubernetes.",
+    "Set up observability stack: Prometheus metrics (throughput, latency p50/p99), Grafana dashboards for monitoring bot health, enabled rapid incident debugging across distributed services."
   ],
-  "technologies": ["Laravel", "PHP", "MongoDB", "MySQL", "Redis", "Socket.IO", "Nginx", "GitLab CI/CD" , "Docker","ArgoCD","Kubernetes", "Prometheus", "Grafana"]
+  "technologies": ["Laravel", "PHP", "Vue.js", "JavaScript", "MongoDB", "MySQL", "Redis", "Socket.IO", "Nginx", "GitLab CI/CD", "Docker", "ArgoCD", "Kubernetes", "Prometheus", "Grafana"]
 }

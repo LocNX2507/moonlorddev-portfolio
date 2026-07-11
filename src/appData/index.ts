@@ -61,12 +61,52 @@ export const skillList = [
   { name: 'GitLab', icon: GitlabIcon },
 ]
 
+export const certifications = [
+  {
+    title: 'Oracle Cloud Infrastructure 2025 Certified Foundations Associate',
+    issuer: 'Oracle',
+    date: '10/2025 – 10/2027',
+    credentialUrl: '#',
+  },
+  {
+    title: 'IBM Full Stack Software Developer',
+    issuer: 'Coursera',
+    date: '03/2024 – 06/2024',
+    credentialUrl: '#',
+  },
+  {
+    title: 'TOEIC B2 — English: Intermediate',
+    issuer: 'ETS Global',
+    date: '09/2023 – 03/2026',
+    credentialUrl: '#',
+  },
+]
+
+export const awards = [
+  {
+    title: 'Advanced Worker Award',
+    organization: 'Viettel',
+    year: 2025,
+  },
+  {
+    title: 'Employee of the Year',
+    organization: 'Blameo',
+    year: 2022,
+  },
+  {
+    title: '2nd Prize, Provincial Math Olympiad',
+    organization: 'Vietnam',
+    year: 2010,
+  },
+]
+
 export const footerLinks = [
   { title: 'Projects', href: '#projects' },
   { title: 'Experience', href: '#experience' },
   { title: 'Technical Expertise', href: '#expertise' },
   { title: 'Technology Stack', href: '#tech-stack' },
-  { title: 'Education & Certifications', href: '#education' },
+  { title: 'Education', href: '#education' },
+  { title: 'Certifications', href: '#certifications' },
   { title: 'Awards', href: '#awards' },
 ]
 
