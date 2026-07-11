@@ -18,9 +18,9 @@ import {
 // Technical Expertise Data
 export const serviceData = [
   {
-    title: 'AI Engineering',
+    title: 'LLM Integration & Platform Engineering',
     shortDescription:
-      'Building AI-enabled applications using LLMs, document knowledge, streaming responses, and conversational interfaces.',
+      'Integrating large language models into production platforms with streaming responses, document knowledge retrieval, and real-time conversational interfaces.',
   },
   {
     title: 'Backend Engineering',
